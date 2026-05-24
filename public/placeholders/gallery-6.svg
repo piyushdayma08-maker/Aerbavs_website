@@ -1,0 +1,23 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050B18"/>
+      <stop offset="0.55" stop-color="#0A1633"/>
+      <stop offset="1" stop-color="#070F24"/>
+    </linearGradient>
+    <radialGradient id="w" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(420 300) rotate(70) scale(760 560)">
+      <stop stop-color="white" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#b)"/>
+  <rect width="1200" height="900" fill="url(#w)"/>
+  <g fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.10">
+    <rect x="170" y="220" width="860" height="520" rx="40"/>
+    <rect x="240" y="290" width="280" height="180" rx="24"/>
+    <rect x="560" y="290" width="400" height="110" rx="20"/>
+    <rect x="560" y="430" width="400" height="110" rx="20"/>
+  </g>
+  <path d="M610 345 H920" stroke="#58A0FF" stroke-opacity="0.30" stroke-width="6" stroke-linecap="round"/>
+</svg>
+

@@ -1,0 +1,401 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "id": "1",
+        "src": "/images/hero/slide-1.jpg",
+        "alt": "Commercial aircraft in flight over clouds at sunset",
+        "eyebrow": "Supplying the Skies Since 2020",
+        "headline": "AERBAVS MRO Parts\n& Leasing — FZCO",
+        "subheading": "Dubai-based aviation parts supplier and aircraft leasing company. Serving airlines, MRO organisations, operators, and defence fleets with certified components and flexible leasing solutions worldwide."
+      },
+      {
+        "id": "2",
+        "src": "/images/hero/slide-2.jpg",
+        "alt": "Aircraft maintenance hangar with technicians performing MRO work",
+        "eyebrow": "Aviation Parts Supply",
+        "headline": "Aircraft & Engine Parts.\nAviation Tools. Consumables.",
+        "subheading": "From rotables and LRUs to avionics, adhesives, lubricants, and aviation tapes — AERBAVS supplies the full range of aviation materials your fleet needs to stay airworthy."
+      },
+      {
+        "id": "3",
+        "src": "/images/hero/slide-3.jpg",
+        "alt": "Air cargo freighter aircraft with loading operations underway",
+        "eyebrow": "24/7 AOG Support",
+        "headline": "Aircraft on Ground?\nWe Respond Immediately.",
+        "subheading": "Our dedicated AOG desk operates around the clock with priority sourcing, rapid dispatch, and direct coordination — minimising downtime for airlines and operators globally."
+      },
+      {
+        "id": "4",
+        "src": "/images/hero/slide-4.jpg",
+        "alt": "Commercial aircraft cockpit and business jet interior",
+        "eyebrow": "Aircraft Leasing",
+        "headline": "Flexible Aircraft Leasing\nfor Every Operation.",
+        "subheading": "Dry lease, wet lease, and ACMI solutions tailored to your fleet capacity requirements — with full technical records, delivery condition inspection, and competitive terms."
+      },
+      {
+        "id": "5",
+        "src": "/images/hero/slide-5.jpg",
+        "alt": "Aerial view of aviation operations at golden hour",
+        "eyebrow": "Middle East · Africa · South Asia",
+        "headline": "Global Aviation Supply\nfrom Dubai, UAE.",
+        "subheading": "Operating from Dubai Digital Park, Dubai Silicon Oasis — strategically positioned to serve the Middle East, Central Africa, South Asia, and aviation markets worldwide."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About AERBAVS",
+    "title": "Your UAE-based aviation parts supplier and leasing partner",
+    "description": "AERBAVS MRO Parts & Leasing FZCO is a Dubai-based aviation supply company dedicated to keeping aircraft airworthy and fleets operational. Established in 2020 and operating from Dubai Digital Park, Dubai Silicon Oasis, we supply certified aircraft and engine parts, aviation tools, hangar supplies, consumables, and leasing solutions to airlines, MRO organisations, operators, and defence aviation units across the Middle East, Central Africa, South Asia, and beyond.",
+    "ctaLabel": "Learn More About AERBAVS",
+    "ctaHref": "/about",
+    "cards": [
+      {
+        "title": "Dubai-Based Operations",
+        "description": "Headquartered at Dubai Digital Park, Dubai Silicon Oasis — at the centre of the region's fastest-growing aviation hub.",
+        "image": "/images/about/dubai-operations.jpg",
+        "alt": "Aircraft on approach to Dubai International Airport"
+      },
+      {
+        "title": "ISO 9001:2015 Certified",
+        "description": "Quality management certified to ISO 9001:2015 — ensuring every part and service meets the highest aviation standards.",
+        "image": "/images/about/iso-certified.jpg",
+        "alt": "Aircraft engine MRO inspection and quality check"
+      },
+      {
+        "title": "24/7 AOG Response",
+        "description": "Round-the-clock AOG support with priority sourcing and rapid dispatch to minimise aircraft ground time worldwide.",
+        "image": "/images/about/aog-response.jpg",
+        "alt": "Air cargo loading and logistics operations"
+      }
+    ]
+  },
+  "whatWeDo": {
+    "eyebrow": "What We Supply",
+    "title": "AERBAVS MRO Parts & Leasing FZCO — Supplying the Skies Since 2020",
+    "description": "AERBAVS MRO PARTS & LEASING FZCO has been serving the aviation community for over 5 years, providing the parts, tools, and materials that keep aircraft airborne and leasing activities running smoothly. With deep inventory, fast shipping, and remarkable service, we make it easy to get what you need — when you need it.",
+    "items": [
+      {
+        "title": "Tools and Equipment",
+        "body": "Specialist aviation maintenance tools, pneumatic riveters, torque wrenches, and precision equipment for MRO facilities and line maintenance operations.",
+        "image": "/images/products/tools-equipment.jpg",
+        "imageAlt": "Aviation maintenance tools and equipment"
+      },
+      {
+        "title": "Shop & Hangar Supplies",
+        "body": "Ground support equipment, workstands, jacks, handling equipment, and all infrastructure supplies required for efficient hangar operations.",
+        "image": "/images/products/hangar-supplies.jpg",
+        "imageAlt": "Hangar and shop supplies"
+      },
+      {
+        "title": "Aircraft & Engine Parts",
+        "body": "Certified rotables, LRUs, airframe and engine components with full 8130-3 / EASA Form 1 documentation from OEMs and approved repair stations.",
+        "image": "/images/products/aircraft-engine-parts.jpg",
+        "imageAlt": "Aircraft and engine parts"
+      },
+      {
+        "title": "Avionics & Instruments",
+        "body": "Flight instruments, navigation systems, communication equipment, and avionics components with full certification and trace documentation.",
+        "image": "/images/products/avionics-instruments.jpg",
+        "imageAlt": "Aircraft avionics and flight instruments"
+      },
+      {
+        "title": "Adhesives",
+        "body": "Aviation-grade epoxy systems, film adhesives, and structural bonding compounds approved for aircraft maintenance, repair, and overhaul applications.",
+        "image": "/images/products/adhesives.jpg",
+        "imageAlt": "Aviation adhesives"
+      },
+      {
+        "title": "Lubricants",
+        "body": "Aerospace lubricants, hydraulic fluids, and greases meeting OEM specifications for airframes, engines, landing gear, and flight control systems.",
+        "image": "/images/products/lubricants.jpg",
+        "imageAlt": "Aviation lubricants and hydraulic fluids"
+      },
+      {
+        "title": "Sealants",
+        "body": "Polysulfide, polyurethane, and compound sealants for fuel tanks, pressurised structures, windows, and aircraft exterior applications.",
+        "image": "/images/products/sealants.jpg",
+        "imageAlt": "Aviation sealants"
+      },
+      {
+        "title": "Silicones",
+        "body": "High-performance silicone compounds, RTV sealants, and dielectric greases approved for aviation electrical, structural, and environmental sealing.",
+        "image": "/images/products/silicones.jpg",
+        "imageAlt": "Aviation silicone products"
+      },
+      {
+        "title": "Cleaners",
+        "body": "Aviation surface cleaners, degreasers, solvent wipes, and aqueous cleaning systems formulated for aircraft surfaces, interiors, and components.",
+        "image": "/images/products/cleaners.jpg",
+        "imageAlt": "Aviation cleaning products"
+      },
+      {
+        "title": "Coatings",
+        "body": "Primers, topcoats, corrosion inhibitors, and specialised aviation coatings qualified for aircraft interior, exterior, and structural paint systems.",
+        "image": "/images/products/coatings.jpg",
+        "imageAlt": "Aviation coatings and primers"
+      },
+      {
+        "title": "Tapes",
+        "body": "High-performance aviation tapes — aluminium foil, speed tape, edge tape, surface protection, and speciality tapes approved for aircraft maintenance.",
+        "image": "/images/products/tapes.jpg",
+        "imageAlt": "Aviation tapes and accessories"
+      },
+      {
+        "title": "Accessories",
+        "body": "Aviation electrical accessories, connector pins, circuit breakers, aircraft batteries, wire harnesses, and specialist maintenance accessories.",
+        "image": "/images/products/accessories.jpg",
+        "imageAlt": "Aviation accessories and electrical components"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "Aviation supply and leasing services from Dubai to the world.",
+    "description": "AERBAVS delivers specialist aviation services built around speed, quality, and operational continuity — serving airlines, MROs, operators, and defence fleets globally.",
+    "items": [
+      {
+        "title": "Aircraft Parts Supply",
+        "description": "Certified rotables, expendables, LRUs, avionics, and hard-to-find components sourced globally with full documentation — 8130-3, EASA Form 1, and certificates of conformance.",
+        "icon": "Wrench",
+        "features": ["Full documentation package", "OEM & PMA sourcing", "Expedited AOG response"]
+      },
+      {
+        "title": "Aircraft Leasing",
+        "description": "Dry lease, wet lease, and ACMI arrangements for airlines and operators needing short or long-term aircraft capacity — with full technical delivery support.",
+        "icon": "Plane",
+        "features": ["Dry, wet & ACMI options", "Full tech records", "Competitive lease terms"]
+      },
+      {
+        "title": "AOG Emergency Support",
+        "description": "24/7 Aircraft on Ground response — call +971 54 176 1644 at any hour for priority sourcing, same-day dispatch, and direct maintenance coordination.",
+        "icon": "Zap",
+        "features": ["24/7 AOG hotline", "Same-day dispatch", "Priority airfreight"]
+      },
+      {
+        "title": "Aviation Tools & Equipment",
+        "description": "Specialist maintenance tooling, ground support equipment, hangar supplies, and shop equipment sourced from qualified aviation manufacturers.",
+        "icon": "Package",
+        "features": ["Specialist tooling", "GSE sourcing", "Hangar supplies"]
+      },
+      {
+        "title": "Aviation Consumables",
+        "description": "Aviation-grade adhesives, sealants, lubricants, cleaners, coatings, tapes, fasteners, seals, and all consumables required for aircraft maintenance operations.",
+        "icon": "ShieldCheck",
+        "features": ["Approved materials", "Full specifications met", "Bulk supply available"]
+      },
+      {
+        "title": "Global Logistics & Delivery",
+        "description": "Worldwide shipping with DG handling capabilities, customs clearance, and AOG-priority routing — delivered from our Dubai hub to any destination.",
+        "icon": "Truck",
+        "features": ["Worldwide delivery", "DG cargo handling", "Customs clearance"]
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "eyebrow": "Why Choose AERBAVS",
+    "title": "The trusted aviation supply partner for fleets across the globe.",
+    "description": "AERBAVS was built on the belief that aviation supply should be fast, genuine, and reliable. Our customer-focused approach, broad product selection, and leasing capability make us the go-to partner for airlines, MROs, and operators across the Middle East, Central Africa, South Asia, and beyond.",
+    "stats": [
+      { "value": 5,   "label": "Years of aviation expertise",  "suffix": "+" },
+      { "value": 40,  "label": "Countries served",             "suffix": "+" },
+      { "value": 500, "label": "Aviation supply partners",     "suffix": "+" },
+      { "value": 24,  "label": "Hour AOG support",             "suffix": "/7" }
+    ],
+    "reasons": [
+      {
+        "title": "Ample Selection",
+        "description": "12 product categories under one roof — aircraft parts, avionics, tools, adhesives, lubricants, sealants, cleaners, coatings, tapes, and leasing solutions.",
+        "icon": "Package"
+      },
+      {
+        "title": "Rapid & Genuine Delivery",
+        "description": "Genuine, certified aviation products dispatched fast from our Dubai hub. AOG requests handled as immediate priority — same-day dispatch when you need it most.",
+        "icon": "Timer"
+      },
+      {
+        "title": "Trusted Aviation Experience",
+        "description": "Over 5 years of dedicated aviation supply, serving airlines, MRO organisations, operators, and defence fleets across the Middle East, Central Africa, and South Asia.",
+        "icon": "Award"
+      },
+      {
+        "title": "Leasing Services",
+        "description": "Flexible aircraft leasing — dry lease, wet lease, and ACMI — giving operators the capacity they need on competitive terms, with full technical support throughout.",
+        "icon": "Plane"
+      },
+      {
+        "title": "Made Easy — Fast & Reliable",
+        "description": "We make aviation supply straightforward. Submit an RFQ, get a fast response, and receive your order with full documentation. No complexity, no delays, no surprises.",
+        "icon": "Headset"
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Industries Served",
+    "title": "Dedicated to every sector of commercial and defence aviation.",
+    "description": "From scheduled airlines to government fleets, AERBAVS supplies certified parts, tools, consumables, and leasing solutions across the full spectrum of aviation operations.",
+    "items": [
+      {
+        "title": "Airlines",
+        "description": "MRO parts supply, aircraft consumables, and leasing solutions for scheduled carriers and charter airlines operating narrowbody and widebody fleets.",
+        "icon": "Building2",
+        "image": "/images/industries/airlines.jpg",
+        "alt": "Commercial passenger aircraft at terminal gate"
+      },
+      {
+        "title": "MRO Organisations",
+        "description": "Line and base maintenance parts, aviation tooling, hangar supplies, and aircraft consumables — aligned to your maintenance check schedules and downtime windows.",
+        "icon": "Wrench",
+        "image": "/images/industries/mro-organisations.jpg",
+        "alt": "Aircraft MRO hangar with maintenance technicians"
+      },
+      {
+        "title": "Aviation Operators",
+        "description": "Rotable exchanges, AOG parts sourcing, and flexible leasing solutions for charter operators, cargo carriers, and regional aviation companies.",
+        "icon": "Plane",
+        "image": "/images/industries/aviation-operators.jpg",
+        "alt": "Aviation operator aircraft on airport apron"
+      },
+      {
+        "title": "Government Aviation",
+        "description": "Reliable procurement support for government-operated aircraft fleets with comprehensive documentation, genuine parts, and compliant delivery processes.",
+        "icon": "Shield",
+        "image": "/images/industries/government-aviation.jpg",
+        "alt": "Government aviation operations at airport"
+      },
+      {
+        "title": "Defence Aviation",
+        "description": "Compliance-driven parts sourcing and supply chain support for defence aviation programmes — with strict documentation, security, and delivery requirements met.",
+        "icon": "ShieldCheck",
+        "image": "/images/industries/defence-aviation.jpg",
+        "alt": "Defence and military aviation operations"
+      },
+      {
+        "title": "Fleet Support Operations",
+        "description": "End-to-end fleet support — from consumables and tooling to rotable pool management and AOG logistics — for operators managing large mixed-type fleets.",
+        "icon": "Globe2",
+        "image": "/images/industries/fleet-support.jpg",
+        "alt": "Fleet of commercial aircraft at international hub"
+      }
+    ]
+  },
+  "globalOperations": {
+    "eyebrow": "Global Reach",
+    "title": "Based in Dubai. Supplying aviation worldwide.",
+    "description": "Headquartered at Dubai Digital Park, Dubai Silicon Oasis, AERBAVS is strategically positioned to serve the Middle East, Central Africa, South Asia, and global aviation markets with fast, reliable parts supply and leasing support.",
+    "coverageStat": "40+",
+    "coverageLabel": "Countries served",
+    "hubs": [
+      { "city": "Dubai",     "code": "DXB", "region": "Middle East HQ" },
+      { "city": "Nairobi",   "code": "NBO", "region": "Central Africa"  },
+      { "city": "Mumbai",    "code": "BOM", "region": "South Asia"      },
+      { "city": "Riyadh",    "code": "RUH", "region": "Saudi Arabia"    },
+      { "city": "London",    "code": "LHR", "region": "Europe"          }
+    ],
+    "countries": [
+      "United Arab Emirates", "Saudi Arabia", "Kenya", "India",
+      "Pakistan", "Bangladesh", "Qatar", "Bahrain", "Oman", "Egypt",
+      "Bhutan", "New Zealand", "Mauritius"
+    ]
+  },
+  "achievements": {
+    "eyebrow": "Our Track Record",
+    "title": "5+ years of trusted aviation supply.",
+    "description": "Since 2020, AERBAVS has built a reputation for genuine products, rapid delivery, and reliable service — serving airlines, MROs, operators, and defence fleets across the Middle East, Central Africa, South Asia, and beyond.",
+    "stats": [
+      { "label": "Years of aviation expertise",    "value": 5,    "suffix": "+" },
+      { "label": "Countries served",               "value": 40,   "suffix": "+" },
+      { "label": "Parts transactions completed",   "value": 3500, "suffix": "+" },
+      { "label": "Satisfied aviation clients",     "value": 200,  "suffix": "+" }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Certifications & Standards",
+    "title": "ISO certified. Quality assured. Genuinely reliable.",
+    "description": "AERBAVS operates to internationally recognised quality management standards — every product we supply and every service we deliver is backed by verified certification and genuine quality assurance.",
+    "items": [
+      {
+        "title": "ISO 9001:2015 Certified",
+        "description": "Our operations are certified to ISO 9001:2015, ensuring consistent quality management across all purchasing, sourcing, and supply activities.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Genuine Aviation Products",
+        "description": "All products supplied by AERBAVS are sourced from approved manufacturers, certified distributors, and qualified repair stations — no counterfeit risk.",
+        "icon": "BadgeCheck"
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Rigorous incoming inspection, traceability verification, and documentation review on every shipment to ensure compliance with your airworthiness requirements.",
+        "icon": "FileCheck"
+      },
+      {
+        "title": "Reliable Support Solutions",
+        "description": "From single-part sourcing to fleet-wide supply programmes, our quality systems ensure consistent, dependable service on every engagement.",
+        "icon": "Globe"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "title": "Answers for airlines, MROs, and procurement teams.",
+    "description": "Everything you need to know about AERBAVS aviation parts supply, leasing, AOG response, and worldwide delivery.",
+    "items": [
+      {
+        "q": "What types of aviation parts and materials does AERBAVS supply?",
+        "a": "AERBAVS supplies a comprehensive range of aviation products including aircraft and engine parts (rotables, LRUs, expendables, avionics), aviation tools and ground equipment, hangar and shop supplies, adhesives and sealants, lubricants and silicones, cleaners and coatings, aviation tapes, and all aircraft consumables and expendable materials. We also offer aircraft leasing solutions."
+      },
+      {
+        "q": "How do you handle AOG — Aircraft on Ground — requests?",
+        "a": "Our dedicated AOG desk is available 24 hours a day, 7 days a week. For AOG emergencies, call us directly at +971 54 176 1644. We prioritise AOG requests immediately — sourcing parts, booking priority airfreight, and coordinating delivery to minimise your aircraft ground time. You can also email info@aerbavs.com or sales@aerbavs.com with full part details."
+      },
+      {
+        "q": "What aircraft leasing options does AERBAVS offer?",
+        "a": "AERBAVS facilitates dry lease, wet lease (ACMI), and short-term lease arrangements for commercial aircraft. We work with lessors and aircraft owners to match available assets with operator requirements, and support the full transaction including technical records review, delivery condition inspection, and lease documentation."
+      },
+      {
+        "q": "Do you ship internationally? Which regions do you cover?",
+        "a": "Yes, AERBAVS ships worldwide. Our primary markets include the Middle East (UAE, Saudi Arabia, Qatar, Bahrain, Oman), Central Africa (Kenya, Tanzania, Ethiopia), South Asia (India, Pakistan, Bangladesh, Sri Lanka), and many other global destinations. We handle DG (dangerous goods) cargo, customs clearance, and priority airfreight from our Dubai hub."
+      },
+      {
+        "q": "Where are you located and what are your operating hours?",
+        "a": "AERBAVS MRO Parts & Leasing FZCO is headquartered at Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, UAE. Our standard office hours are Sunday to Thursday, 09:00–18:00 GST. Our AOG desk is available 24/7, 365 days a year. Contact us at +971 54 176 1644, info@aerbavs.com, or sales@aerbavs.com."
+      },
+      {
+        "q": "How do I submit an RFQ or parts request?",
+        "a": "You can submit your RFQ through the contact form on our website, by email to info@aerbavs.com or sales@aerbavs.com, or by calling +971 54 176 1644. Please include part numbers, ATA chapter, quantity required, condition (new/serviceable/overhauled), documentation requirements, and your target delivery date. We aim to respond to all RFQs within 24 hours."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Request parts, submit an RFQ, or enquire about leasing.",
+    "description": "Contact our Dubai team for aviation parts sourcing, consumables, tooling, AOG support, or aircraft leasing enquiries. We respond to all RFQs within 24 hours — AOG requests are handled immediately.",
+    "email": "info@aerbavs.com",
+    "emailSales": "sales@aerbavs.com",
+    "phone": "+971 54 176 1644",
+    "locations": [
+      {
+        "city": "Dubai HQ",
+        "address": "Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates"
+      }
+    ]
+  },
+  "footer": {
+    "description": "AERBAVS MRO Parts & Leasing FZCO — Dubai-based aviation parts supplier and aircraft leasing company. Supplying the skies since 2020 from Dubai Silicon Oasis, UAE.",
+    "newsletterTitle": "Aviation Insights",
+    "newsletterDescription": "Receive parts availability alerts, aviation supply updates, and leasing opportunities from our Dubai team.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/company/aerbavs",
+      "twitter": "https://twitter.com/aerbavs"
+    }
+  },
+  "seo": {
+    "siteName": "AERBAVS",
+    "legalName": "AERBAVS MRO Parts & Leasing FZCO",
+    "title": "AERBAVS | Aviation Parts Supplier & Aircraft Leasing Dubai UAE",
+    "description": "AERBAVS MRO Parts & Leasing FZCO — Dubai-based aviation parts supplier. Aircraft & engine parts, aviation consumables, tools, and aircraft leasing. Supplying the skies since 2020 from Dubai Silicon Oasis, UAE.",
+    "url": "https://www.aerbavs.com",
+    "ogImage": "/opengraph-image"
+  }
+}

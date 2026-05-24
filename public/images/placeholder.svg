@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1633"/>
+      <stop offset="100%" stop-color="#070F24"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1C3872" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#070F24" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+  </g>
+
+  <!-- Subtle radial glow center -->
+  <ellipse cx="400" cy="300" rx="320" ry="240" fill="#1C3872" opacity="0.12"/>
+
+  <!-- Aircraft silhouette — side profile -->
+  <g transform="translate(400,280)" opacity="0.25" fill="white">
+    <!-- Fuselage -->
+    <ellipse cx="0" cy="0" rx="130" ry="12"/>
+    <!-- Nose -->
+    <path d="M 120 -4 L 155 0 L 120 4 Z"/>
+    <!-- Tail fairing -->
+    <path d="M -120 -4 C -130 -4 -135 0 -130 0 C -135 0 -130 4 -120 4 Z"/>
+    <!-- Vertical fin -->
+    <path d="M -110 -4 L -128 -32 L -116 -32 L -104 -4 Z"/>
+    <!-- Horizontal stabilizers -->
+    <path d="M -112 -4 L -140 -14 L -128 -14 L -106 -4 Z"/>
+    <path d="M -112 4  L -140 14  L -128 14  L -106 4  Z"/>
+    <!-- Main wings -->
+    <path d="M -10 -4 L -80 -46 L -62 -46 L 4 -4 Z"/>
+    <path d="M -10  4 L -80  46 L -62  46 L 4  4 Z"/>
+    <!-- Engine nacelles -->
+    <ellipse cx="-55" cy="-42" rx="14" ry="5"/>
+    <ellipse cx="-55" cy=" 42" rx="14" ry="5"/>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="300" y1="346" x2="500" y2="346" stroke="rgba(255,122,61,0.4)" stroke-width="1.5"/>
+
+  <!-- Brand label -->
+  <text x="400" y="375" text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="700"
+    font-size="13"
+    letter-spacing="6"
+    fill="rgba(255,255,255,0.25)">AERBAVS</text>
+
+  <text x="400" y="396" text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    letter-spacing="3"
+    fill="rgba(255,255,255,0.14)">IMAGE PLACEHOLDER</text>
+</svg>

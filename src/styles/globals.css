@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  --primary: 221 83% 53%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 210 40% 98%;
+  --muted-foreground: 215 19% 45%;
+
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47% 11%;
+
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 221 83% 53%;
+
+  --sky: 203 89% 92%;
+  --peach: 24 100% 92%;
+  --sunset: 22 92% 55%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  background-image:
+    radial-gradient(1200px 500px at 10% -5%, rgba(98, 180, 255, 0.12) 0%, transparent 58%),
+    radial-gradient(1100px 520px at 92% 2%, rgba(25, 88, 187, 0.1) 0%, transparent 60%);
+}
+
+::selection {
+  background: rgba(29, 78, 216, 0.14);
+}
+
+/* Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(15, 23, 42, 0.2) transparent;
+}
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.15);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-track { background: transparent; }
+
+/* ── Glass utility ── */
+.glass {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* ── Section backgrounds ── */
+.bg-skywash {
+  background:
+    radial-gradient(900px 500px at 15% 0%, hsla(var(--sky) / 0.85) 0%, transparent 60%),
+    radial-gradient(700px 400px at 85% 5%, hsla(var(--peach) / 0.65) 0%, transparent 55%),
+    #ffffff;
+}
+
+.bg-softpanel {
+  background:
+    radial-gradient(700px 380px at 8% 0%, rgba(29, 78, 216, 0.07) 0%, transparent 55%),
+    radial-gradient(700px 380px at 92% 0%, rgba(255, 122, 61, 0.09) 0%, transparent 55%),
+    #f8fafc;
+}
+
+.bg-navy-section {
+  background: linear-gradient(135deg, #070F24 0%, #0A1633 60%, #0E214A 100%);
+}
+
+/* ── Eyebrow badge ── */
+.eyebrow {
+  @apply inline-flex items-center gap-2 rounded-full border border-[#E2E8F0] bg-white px-3.5 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500 shadow-sm;
+}
+
+/* ── Section divider line ── */
+.accent-line {
+  @apply h-[3px] w-14 rounded-full bg-gradient-to-r from-[#FF7A3D] to-[#FF9F6B];
+}
+
+/* ── Card hover lift ── */
+.card-lift {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+}
+
+/* ── Premium card ── */
+.premium-card {
+  @apply aviation-card rounded-2xl border border-[#E2E8F0] bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md;
+  box-shadow: 0 10px 28px rgba(4, 24, 62, 0.05);
+}
+
+/* ── Image overlay gradients ── */
+.img-overlay-navy {
+  background: linear-gradient(to top, rgba(7, 15, 36, 0.92) 0%, rgba(7, 15, 36, 0.5) 45%, transparent 100%);
+}
+.img-overlay-left {
+  background: linear-gradient(to right, rgba(7, 15, 36, 0.88) 0%, rgba(7, 15, 36, 0.55) 45%, transparent 100%);
+}
+
+/* ── Animated underline for links ── */
+.link-underline {
+  @apply relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-current after:transition-all after:duration-200 hover:after:w-full;
+}
+
+/* ── Shimmer hover utility ── */
+/* Apply to a group parent; inner element gets the sweep on group-hover */
+.shimmer-card {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.20) 50%,
+    transparent 65%
+  );
+  transform: translateX(-110%) skewX(-12deg);
+  pointer-events: none;
+}
+.shimmer-card:hover::after {
+  animation: shimmer-sweep 0.70s ease-out forwards;
+}
+
+/* ── Hub pulse ring ── */
+.hub-dot {
+  position: relative;
+}
+.hub-dot::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: inherit;
+  animation: pulse-ring 2s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+}
+
+/* ── Radial vignette for hero ── */
+.bg-radial-vignette {
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(7, 15, 36, 0.45) 100%);
+}
+
+/* ── GPU-accelerated base for animated elements ── */
+.will-animate {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+.aviation-grid {
+  background-image:
+    linear-gradient(rgba(15, 65, 145, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 65, 145, 0.08) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(circle at center, black 26%, transparent 92%);
+}
+
+.aviation-route-lines {
+  background-image:
+    radial-gradient(70% 140% at 12% 88%, transparent 63%, rgba(55, 138, 238, 0.12) 64%, transparent 66%),
+    radial-gradient(100% 120% at 84% 10%, transparent 70%, rgba(34, 104, 206, 0.13) 71%, transparent 73%),
+    radial-gradient(120% 105% at 48% 46%, transparent 74%, rgba(74, 153, 249, 0.1) 75%, transparent 77%);
+}
+
+.aviation-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.aviation-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(140deg, rgba(86, 165, 255, 0.08) 0%, rgba(86, 165, 255, 0) 42%),
+    linear-gradient(320deg, rgba(19, 76, 172, 0.08) 0%, rgba(19, 76, 172, 0) 45%);
+}
+
+.aviation-sweep {
+  animation: aviation-route-sweep 13s linear infinite;
+}
+
+.cloud-drift {
+  animation: cloud-drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes aviation-route-sweep {
+  0% { transform: translateX(-8%); opacity: 0.24; }
+  50% { opacity: 0.48; }
+  100% { transform: translateX(8%); opacity: 0.2; }
+}
+
+@keyframes cloud-drift {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(24px) translateY(-10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aviation-sweep,
+  .cloud-drift {
+    animation: none;
+  }
+}
